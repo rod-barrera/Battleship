@@ -30,3 +30,7 @@ Sigue estos pasos para obtener una copia del proyecto y ejecutarlo localmente:
    ```bash
    npm run dev
     ```
+
+## Desarrollado por
+
+Rodrigo Barrera
