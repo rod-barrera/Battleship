@@ -7,11 +7,17 @@
 
 .battleship-container {
   display: flex;
+  flex-direction: column;
   justify-content: center;
-  border: 1px solid black;
 }
 
 .battleship-game {
+  display: flex;
+  flex-direction: row;
+  gap: 100px;
+}
+
+.battleship-player, .battleship-cpu {
   display: flex;
   flex-direction: column;
 }
