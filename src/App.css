@@ -5,6 +5,7 @@
   text-align: center;
 }
 
+
 .battleship-container {
   display: flex;
   flex-direction: column;
@@ -17,9 +18,14 @@
   gap: 100px;
 }
 
-.battleship-player, .battleship-cpu {
+.battleship-player,
+.battleship-cpu {
   display: flex;
   flex-direction: column;
+}
+
+.board {
+  border: 1px solid black;
 }
 
 .column {
@@ -42,5 +48,9 @@
 }
 
 .revealed {
-  border: 1px solid green;
+  background-color: green;
+}
+
+.next {
+  border: 1px solid deepskyblue;
 }
