@@ -1,10 +1,18 @@
 #root {
-  max-width: 1280px;
   margin: 0 auto;
-  padding: 2rem;
   text-align: center;
 }
 
+.buttons {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 10px;
+}
+
+.button {
+  width: 150px;
+}
 
 .battleship-container {
   display: flex;
@@ -15,6 +23,7 @@
 .battleship-game {
   display: flex;
   flex-direction: row;
+  margin-bottom: 10px;
   gap: 100px;
 }
 
